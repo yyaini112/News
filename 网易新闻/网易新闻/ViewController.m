@@ -72,7 +72,7 @@
 // 只要一滚动就需要字体渐变
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
-    NSInteger i = scrollView.contentOffset.x / ScreenW;
+    
     NSInteger leftI = scrollView.contentOffset.x / ScreenW;
     NSInteger rightI = leftI + 1;
     
